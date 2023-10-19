@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet !important;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h1{
+    font-weight: bold;
+    background-color: yellowgreen;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.SubjectList{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+
+.book1{
+    margin-top: 30px;
+    margin-top: 30px;
+}
+.book2{
+    margin-top: 30px;
+    margin-top: 30px;
+}
+.book3{
+    margin-top: 30px;
+    margin-top: 30px;
+}
+.book4{
+    margin-top: 30px;
+    margin-top: 30px;
+}
+.book5{
+    margin-top: 30px;
+}
+.book1 input{
+    margin-left: 144px;
+    text-align: center;
+}
+.book2 input{
+    margin-left: 136px;
+    text-align: center;
+}
+.book3 input{
+    margin-left: 164px;
+    text-align: center;
+}
+.book4 input{
+    margin-left: 140px;
+    text-align: center;
+}
+.book5 input{
+    text-align: center;
+}
+
+.SubjectList button {
+	padding: 5px 20px;
+	margin-left: 170px;
+	margin-top: 50px;
+}
+
+.field{
+    display: flex;
+    margin-top: 50px;
+}
+.field label{
+    padding-right: 10px;
+    color: white;
+    font-size: 30px;
+    
+}
+.field p{
+    padding-right: 10px;
+    color: white;
+    font-size: 30px;
+}

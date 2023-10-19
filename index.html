@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Grade Calculating System</h1>
+        <div class="main">
+
+            <div class="SubjectList">
+
+                <div class="book1">
+                    <label>Bangla</label>
+                    <input type="number" id="bookOne" placeholder="Marks">
+                </div>
+                <div class="book2">
+                    <label>English</label>
+                    <input type="number" id="bookTwo" placeholder="Marks">
+                </div>
+                <div class="book3">
+                    <label>Math</label>
+                    <input type="number" id="bookThree" placeholder="Marks">
+                </div>
+                <div class="book4">
+                    <label>science</label>
+                    <input type="number" id="bookFour" placeholder="Marks">
+                </div>
+                <div class="book5">
+                    <label>Education of Islam</label>
+                    <input type="number" id="bookFive" placeholder="Marks">
+                </div>
+
+                <button onclick="calculate()">Calculate</button>
+
+            </div>
+
+            <div class="resultChart">
+
+                <div class="field">
+                    <label>Total Marks :</label>
+                    <p>500</p>
+                </div>
+                <div class="field">
+                    <label>Obtain Marks :</label>
+                    <p id="obtain"></p>
+                </div>
+                <div class="field">
+                    <label>Percentage :</label>
+                    <p id="per"></p>
+                </div>
+                <div class="field">
+                    <label>Grade :</label>
+                    <p id="grade"></p>
+                </div>
+                <div class="field">
+                    <label>Remarks :</label>
+                    <p id="remarks"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/grade.js"></script>
+</body>
+
+</html>
